@@ -15,3 +15,5 @@
 	<a href="{{url('article/delete/'.$row->id)}}">Delete</a>
 	
 @endforeach
+
+{{$article->links()}}
